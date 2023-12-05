@@ -1,0 +1,36 @@
+.header {
+  padding: 25px;
+  display: flex;
+  justify-content: space-between;
+  /* margin: 2px 0; */
+  border-bottom: 1px solid black;
+}
+.logo {
+  font-size: 40px;
+  text-decoration: none;
+  color: #000;
+}
+.nav {
+  display: flex;
+  align-items: center;
+}
+svg {
+  display: flex;
+  align-items: center;
+  transition: 0.2s;
+}
+svg:hover path {
+  opacity: 0.5;
+}
+.link {
+  margin: 0 15px;
+  color: #000;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 500;
+  transition: 0.2s;
+}
+
+.link:hover {
+  color: #0000009a;
+}
