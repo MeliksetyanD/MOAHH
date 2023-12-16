@@ -2,9 +2,9 @@ import React from 'react'
 import styles from './Item.module.css'
 import { Link } from 'react-router-dom'
 
-const Item = ({ price, label, img }) => {
+const Item = ({ price, label, img, id }) => {
   return (
-    <Link className={styles.item}>
+    <Link to={`shop/${id}`} className={styles.item}>
       <div
         className={styles.img}
         style={{ backgroundImage: `url(${img})` }}

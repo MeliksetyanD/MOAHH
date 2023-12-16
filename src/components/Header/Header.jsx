@@ -1,6 +1,6 @@
 import React from 'react'
 import styles from './Header.module.css'
-import { Link } from 'react-router-dom'
+import { Link, NavLink } from 'react-router-dom'
 
 const Header = () => {
   return (
@@ -9,15 +9,31 @@ const Header = () => {
         MOAH
       </Link>
       <div className={styles.nav}>
-        <Link to="/shop" className={styles.link}>
+        <NavLink
+          to="/shop"
+          className={({ isActive }) =>
+            isActive ? `${styles.link} ${styles.active}` : styles.link
+          }
+        >
           Shop
-        </Link>
-        <Link className={styles.link} to="/blog">
+        </NavLink>
+        <NavLink
+          to="/blog"
+          className={({ isActive }) =>
+            isActive ? `${styles.link} ${styles.active}` : styles.link
+          }
+        >
           Blog
-        </Link>
-        <Link className={styles.link} to="/our-story">
+        </NavLink>
+        <NavLink
+          to="/our-story"
+          className={({ isActive }) =>
+            isActive ? `${styles.link} ${styles.active}` : styles.link
+          }
+        >
+          {' '}
           Our Story
-        </Link>
+        </NavLink>
         |
         <Link className={styles.link} to="/search">
           <svg

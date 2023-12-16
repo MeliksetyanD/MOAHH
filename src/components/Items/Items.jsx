@@ -1,9 +1,9 @@
 import React from 'react'
 import styles from './Items.module.css'
 import Item from '../Item/Item'
-import getAll from '../../utils/products'
+import { getAll } from '../../utils/products'
 
-const INITIAL_ITEMS = await getAll()
+const INITIAL_ITEMS = await getAll(5)
 const Items = () => {
   return (
     <div className={styles.itemsMain}>
@@ -13,7 +13,13 @@ const Items = () => {
       </div>
       <div className={styles.items}>
         {INITIAL_ITEMS.map((el, index) => (
-          <Item key={index} img={el.image} label={el.name} price={el.price} />
+          <Item
+            key={index}
+            id={el.id}
+            img={el.image}
+            label={el.name}
+            price={el.price}
+          />
         ))}
       </div>
     </div>

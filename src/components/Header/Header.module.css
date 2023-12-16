@@ -29,8 +29,19 @@ svg:hover path {
   font-size: 18px;
   font-weight: 500;
   transition: 0.2s;
-}
 
-.link:hover {
-  color: #0000009a;
+  position: relative;
+}
+.active {
+  transition: 0.3s;
+  position: relative;
+}
+.active::after {
+  content: '';
+  height: 2px;
+  background-color: #000;
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  right: 0;
 }

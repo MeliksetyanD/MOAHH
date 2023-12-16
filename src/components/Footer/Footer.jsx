@@ -24,10 +24,10 @@ const Footer = () => {
         <span>&copy; MOAH</span>
 
         <div className={styles.socialLogos}>
-          <Link to="/fb">
+          <Link to="https://facebook/" target="_blank">
             <img src={facebook} alt="facebook" />
           </Link>
-          <Link to="/instagram">
+          <Link to="https://www.instagram.com/moah_jewel/" target="_blank">
             <img src={instagram} alt="instagram" />
           </Link>
         </div>
