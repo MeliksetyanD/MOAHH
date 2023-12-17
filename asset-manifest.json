@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/MOAHH/static/css/main.d9229175.css",
-    "main.js": "/MOAHH/static/js/main.ef3489af.js",
+    "main.css": "/MOAHH/static/css/main.46394d44.css",
+    "main.js": "/MOAHH/static/js/main.629f61a8.js",
     "static/media/maisn.jpg": "/MOAHH/static/media/maisn.eb7e2228050d7b381251.jpg",
     "static/media/instagram.svg": "/MOAHH/static/media/instagram.ec24bcd7b47dcb4e43ce128ab62aad70.svg",
     "index.html": "/MOAHH/index.html",
     "static/media/Input.svg": "/MOAHH/static/media/Input.ef3991c35cd669949c112d8e6350b79c.svg",
     "static/media/facebook.svg": "/MOAHH/static/media/facebook.8bafeda20f0c46bf3d57db95217ca87d.svg",
-    "main.d9229175.css.map": "/MOAHH/static/css/main.d9229175.css.map",
-    "main.ef3489af.js.map": "/MOAHH/static/js/main.ef3489af.js.map"
+    "main.46394d44.css.map": "/MOAHH/static/css/main.46394d44.css.map",
+    "main.629f61a8.js.map": "/MOAHH/static/js/main.629f61a8.js.map"
   },
   "entrypoints": [
-    "static/css/main.d9229175.css",
-    "static/js/main.ef3489af.js"
+    "static/css/main.46394d44.css",
+    "static/js/main.629f61a8.js"
   ]
 }
